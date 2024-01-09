@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Basics</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Add a background-color to the body -->
+
+    <header>
+        <!-- Add a background-color and max-width to the header -->
+        <!-- Add a border and padding to the header -->
+        <h1>Make this text navy and add a Google font</h1>
+    </header>
+    
+    <nav>
+        <!-- Add a background-color and max-width to the nav -->
+        <!-- Use w3schools to research how to create a navbar -->
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <!-- Add a background-color and max-width to the main -->
+        <!-- Add padding to the main -->
+        <p>This paragraph should be black.</p>
+        
+        <ul>
+            <li class="yellow-bg">add a cyan background to the text
+            <li style="text-transform: uppercase;">Normal text</li>
+            <li><strong>Bold text</strong>
+            <li class="bigger"> Larger font text</li>
+        </ul>
+        
+        <!-- Center this image -->
+        <img src="https://picsum.photos/300/300" alt="placeholder image">
+    </main>
+    
+    <footer>
+        <!-- Add a background-color and max-width to the footer -->
+        <!-- Add padding to the footer -->
+        <p>&copy; 2023 Student Name - Jandiel</p>
+    </footer>
+</body>
+</html>
