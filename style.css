@@ -118,3 +118,15 @@ p {color: tan;}
     margin-right: 0;
     margin-left: auto;
 }
+
+footer {
+    width: 100%;
+    background-color: rgb(126, 102, 77);
+    color: saddlebrown;
+    text-align: right;
+}
+
+p { 
+    color: blanchedalmond;
+    font-family: cursive;
+}
