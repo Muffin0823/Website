@@ -1,0 +1,51 @@
+.header {
+    background-color: burlywood;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.img-fluid {
+    width: 100%;
+    height: auto;
+
+}
+
+.placeholder {
+    max-width: 300px;
+  
+    width: auto;
+    padding: 100px;
+   
+    
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.img {
+    width: 100%;
+    height: auto;
+}
+
+body {
+    margin: 0;
+
+}
+
+
+.en {
+background-color: antiquewhite;
+padding: 1px;
+text-align: center;
+}
+
+section { 
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin: 25px;
+}

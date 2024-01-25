@@ -130,3 +130,9 @@ p {
     color: blanchedalmond;
     font-family: cursive;
 }
+
+.child {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
