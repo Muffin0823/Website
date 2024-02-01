@@ -50,9 +50,9 @@ footer {
     max-width: 1200px;
 }
 
-.yellow-bg {
-    background-color: cyan;
-}
+
+
+
 
 .bigger {
     font-size: 72px;
@@ -81,7 +81,7 @@ nav ul {
 }
 
 nav {
-    background-color:deepskyblue;
+
     margin: auto;
     max-width: 1200px;
     width: 100%;
