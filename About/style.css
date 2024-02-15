@@ -1,12 +1,16 @@
 body {
     background-color: blanchedalmond;
     font-family: fantasy;
+    min-height: 100vh; margin:0;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
 }
 
 
 
 
 header {
+    min-height: 50px;
     background-color: tan;
 color: aliceblue;
  padding: 15px;
@@ -19,6 +23,7 @@ font-family: fantasy;
 
 footer {
 
+min-height: 50px;
     text-align: right;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
  
@@ -32,3 +37,10 @@ position: absolute;
 
 }
 
+body {
+    display: flex; flex-direction: column;
+}
+
+article {
+    flex: 1;
+}
