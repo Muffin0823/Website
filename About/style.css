@@ -1,9 +1,10 @@
 body {
     background-color: blanchedalmond;
-    font-family: fantasy;
+    font-family: "Montserrat Alternates", sans-serif;
     min-height: 100vh; margin:0;
     display: grid;
     grid-template-rows: auto 1fr auto;
+    font-size: 25px;
 }
 
 
@@ -15,18 +16,14 @@ header {
 color: aliceblue;
  padding: 15px;
  border: 25px whitesmoke;
-
+ font-family: "Tangerine", cursive;
 margin: auto;
 
 font-family: fantasy;
 }
 
 footer {
-
-min-height: 50px;
-    text-align: right;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
- 
+    font-family: "Reenie Beanie", cursive;
 }
 
 .child {
@@ -43,4 +40,100 @@ body {
 
 article {
     flex: 1;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+.tangerine-regular {
+    font-family: "Tangerine", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .tangerine-bold {
+    font-family: "Tangerine", cursive;
+    font-weight: 700;
+    font-style: normal;
+  }
+  footer {
+    margin: auto;
+    background-color: white;
+    padding: 25px;
+    max-width: 1200px;
+}
+
+
+
+  .footer { position: fixed; top: 90%; left: 0; right: 0; bottom: 0;
+    background: #ffffff; border: solid black; border-width: 2px 0 0 0; } 
+
+    footer {
+        max-width: 5000px;
+        background-color: blanchedalmond;
+            color: black;
+            text-align: right;
+            font-family: "Reenie Beanie", cursive;
+    }
+
+    body {
+        min-height: 100vh;
+    margin: 0;
+    display: grid;
+    grid-template-rows: auto auto 1fr auto;
+    }
+
+    header {
+        padding: 25px;
+    border: 5px solid white;
+    color: white;
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    }
+
+    main {
+    margin: auto;
+
+
+
+    max-width: 1200px;
+    width: 40%;
+
+}
+
+footer {
+    width: 100%;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    display: block;
+    padding: 20px 10px;
+    transition: all ease 1s;
+}
+
+nav a:hover {
+    background-color: gray;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+
+}
+
+nav {
+
+    margin: auto;
+    max-width: 1200px;
+    width: 100%;
+    /*padding: 5px 20px; */
 }

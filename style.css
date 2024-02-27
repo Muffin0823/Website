@@ -32,8 +32,9 @@ header {
 
 main {
     margin: auto;
-    background-color: rgb(168, 141, 106);
-    padding: 30px;
+
+
+
     max-width: 1200px;
     width: 40%;
 
@@ -92,23 +93,18 @@ footer {
     width: 100%;
 }
 
-ul {
-    text-align: center;
-    
-}
-
 p {color: tan;}
 
 .img-fluid {
     width: 100%;
-    height: auto;
+ max-height: 1000px;
 }
 .img-wrapper {
     display: block;
 }
 
 .img-big {
-    max-width: 500px;
+
 }
 
 .img-center {
@@ -120,10 +116,11 @@ p {color: tan;}
 }
 
 footer {
-    width: 100%;
+max-width: 5000px;
     background-color: rgb(126, 102, 77);
     color: saddlebrown;
     text-align: right;
+    font-family: "Reenie Beanie", cursive;
 }
 
 p { 
