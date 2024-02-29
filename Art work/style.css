@@ -1,7 +1,13 @@
+head {
+       
+}
+
+
 .header {
-    background-color: burlywood;
+    background-color: tan;
     text-align: center;
     padding: 20px;
+
 }
 
 
@@ -50,15 +56,6 @@ section {
     margin: 25px;
 }
 
-header {
-        padding: 25px;
-    border: 5px solid white;
-    color: white;
-    max-width: 1200px;
-    margin: auto;
-    text-align: center;
-    width: 100%;
-    }
 
     main {
     margin: auto;
@@ -100,4 +97,29 @@ nav {
     max-width: 1200px;
     width: 100%;
     /*padding: 5px 20px; */
+}
+
+.RHead {
+
+    padding: 25px;
+    background-color: antiquewhite;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    display: block;
+    padding: 20px 10px;
+    transition: all ease 1s;
+        background-color: black;
+
+    
+}
+
+a {
+    color: white;
+}
+
+nav a:hover     {
+    background-color: gray;
 }
