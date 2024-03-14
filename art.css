@@ -17,12 +17,6 @@ head {
 
 }
 
-.vase2 {
-    max-width: 300px;
-  
-    width: auto;
-    padding: 100px; 
-}
 
 .row::after {
     content: "";
@@ -123,41 +117,6 @@ nav a:hover     {
 }
 
 
-.beach {
-    max-width: 300px;
-  
-    width: auto;
-    padding: 100px; 
-}
-
-.pathways {
-    max-width: 300px;
-  
-    width: auto;
-    padding: 100px; 
-}
-
-.snowman {
-    max-width: 300px;
-  
-    width: auto;
-    padding: 100px; 
-}
-
-.tree {
-    max-width: 300px;
-  
-    width: auto;
-    padding: 100px; 
-}
-
-.placeholder {
-    max-width: 300px;
-  
-    width: auto;
-    padding: 100px; 
-}
-
 .img-fluid {
     max-width: 300px;
   
@@ -166,6 +125,13 @@ nav a:hover     {
 }
 
 .img {
+    max-width: 300px;
+  
+    width: auto;
+    padding: 100px; 
+}
+
+.art {
     max-width: 300px;
   
     width: auto;
