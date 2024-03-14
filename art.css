@@ -17,13 +17,11 @@ head {
 
 }
 
-.placeholder {
+.vase2 {
     max-width: 300px;
   
     width: auto;
-    padding: 100px;
-   
-    
+    padding: 100px; 
 }
 
 .row::after {
@@ -122,4 +120,40 @@ a {
 
 nav a:hover     {
     background-color: gray;
+}
+
+
+.beach {
+    max-width: 300px;
+  
+    width: auto;
+    padding: 100px; 
+}
+
+.pathways {
+    max-width: 300px;
+  
+    width: auto;
+    padding: 100px; 
+}
+
+.snowman {
+    max-width: 300px;
+  
+    width: auto;
+    padding: 100px; 
+}
+
+.tree {
+    max-width: 300px;
+  
+    width: auto;
+    padding: 100px; 
+}
+
+.placeholder {
+    max-width: 300px;
+  
+    width: auto;
+    padding: 100px; 
 }
